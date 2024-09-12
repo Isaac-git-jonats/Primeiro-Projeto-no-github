@@ -1,0 +1,141 @@
+* {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.caixona {
+    width: 100vw;
+    height: 100vh;
+    box-sizing: border-box;
+}
+
+.cabeçalho {
+    margin: 32px 896px 177px 42px;
+    font-weight: 400px;
+    line-height: 14px;
+    letter-spacing: 0.88px;
+    align-items: center;
+    word-spacing: 32px;
+    color: #17233D;
+    cursor: pointer;
+}
+
+button {
+    background-color: #7cd64c;
+    width: 124px;
+    height: 51px;
+    border-radius: 10%;
+    border: none;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #599738;
+}
+
+button:active {
+    background-color: #8fda66;
+}
+
+img {
+    display: inline-block;
+    position: relative;
+    bottom: 121px;
+    left: 121px;
+}
+
+.texto {
+    display: inline-block;
+    width: 700px;
+    position: absolute;
+    right: 84px;
+}
+
+h1 {
+    display: inline-block;
+    font-family: Poppins;
+    font-size: 62px;
+    font-weight: 700;
+    line-height: 82px;
+    letter-spacing: 0.5961538553237915px;
+    text-align: left;
+    color: #161A49;
+}
+
+p {
+    width: 493px;
+    height: 99px;
+    top: 553px;
+    color: #4B505A;
+    height: 99px;
+    margin: 47px 0 45px 0;
+}
+
+#link {
+    color: #6FBF44;
+    cursor: pointer;
+}
+
+#link:hover {
+    color: #50942b;
+}
+
+#link:active {
+    color: #7ebe5c;
+}
+
+a:hover {
+    color: #0f51eb;
+}
+
+a:active {
+    color: #76e476;
+}
+
+@media screen and (max-width:800px) {
+    button{
+        position: relative;
+        left: 400px;
+    }
+    .texto {
+        position: absolute;
+        left: 10%;
+        bottom: 40%;
+    }
+    h1{
+        width:500px;
+        text-align: center;
+        font-size: 60px;
+    }
+    p{
+        width: 304px;
+        position: sticky;
+        left: 140px;
+        font-size: 20px;
+        text-align: center;
+    }
+    #link{
+        position: absolute;
+        left: 25%;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 27px;
+        letter-spacing: 1px;
+        text-align: left;
+        top: 115%;
+
+    }
+
+    img {
+        display: flex;
+        top: 45%;
+        left: auto;
+        width: 540px;
+
+    }
+    .links{
+            display: none;
+        } 
+}
